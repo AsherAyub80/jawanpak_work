@@ -1,3 +1,4 @@
+// assignment 1
 void main() {
 /*1.Length and breadth of a rectangle are 5 and 7 respectively. Write a program to calculate the area of the rectangle.
 Formula (area = length * breadth)*/
@@ -13,7 +14,6 @@ Formula (area = length * breadth)*/
   the modulus of that number is taken with 5 and then multiply the resultant value by 5, store result in variable i. Display the final result.*/
   print('Ans :2');
   int num1 = 7;
-
   int num2 = num1 + 8;
 
   num div = num2 / 3;
