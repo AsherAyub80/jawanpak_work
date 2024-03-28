@@ -50,13 +50,11 @@ void mergelist(int lists) {
 }
 // ? Q.6: Write a Dart program to create a map representing a student's information including name, age, and grade. Print out all the information stored in the map.
 
-
 void studentinfo(dynamic info) {
   Map details = {'name': 'Asher', 'Age': '19', 'Grade': 'A'};
   print(details);
 }
 // ? Q.7: Create a map representing the population of different cities. Write a Dart program to find and print the city with the highest population.
-
 
 void populationinfo(dynamic popinfo) {
   Map<String, int>? populationdetail = {
