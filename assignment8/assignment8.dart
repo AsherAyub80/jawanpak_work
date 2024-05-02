@@ -2,22 +2,34 @@ import 'dart:math';
 
 void main() {
   digitcounter(12);
+  print("=====================");
   int passlength = 10;
   randompass(passlength);
+  print("=====================");
   checkStringisEmpty('');
+  print("=====================");
   myltplicationTable(5);
+  print("=====================");
 
   double oddlimit = 50;
   sumOfOddNumbers(oddlimit);
+  print("=====================");
   checkNumIsPositive(3);
+  print("=====================");
   calculateFactorial(5);
+  print("=====================");
   printPrimeNumber();
+  print("=====================");
   naturalNumberInReverse(11);
+  print("=====================");
   squareOfNumber(6);
+  print("=====================");
   List<int> averagenum = [3, 5, 8, 10];
   averageOfNumInList(averagenum);
+  print("=====================");
   List<int> num2 = [1, 3, 2, 5, 4, 8];
   findLargestDigit(num2);
+  print("=====================");
   printEvenNumber(50);
 }
 
